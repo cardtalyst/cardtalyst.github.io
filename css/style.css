@@ -113,6 +113,7 @@ html {
 
 .fh5co-hero-inner {
   margin-top: 0px;
+  position: center;
   position: relative;
   
 }
@@ -121,6 +122,7 @@ html {
   font-weight: 300;
   font-size: 55px;
   letter-spacing: 2px;
+  text-align: center;
   
 }
 .fh5co-hero-inner > p {
@@ -129,7 +131,7 @@ html {
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 1.5em;
-  text-align: left;
+  text-align: center;
 }
 .fh5co-hero-inner .download-btn-first {
   font-size: 15px;
