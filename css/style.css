@@ -14,6 +14,12 @@ html {
   overflow-x: hidden;
 }
 
+.orange-bold
+{
+  color: #f2ac33;
+  font-weight: bold;
+}
+
 .download-btn-first {
   background: #f7f7f7;
 }
