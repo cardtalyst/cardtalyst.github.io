@@ -39,11 +39,24 @@ html {
 }
 
 #fh5co-hero-wrapper {
+  background: url("../img/banner-bg-orange.jpg");
+  background-size: cover ;
+  background-repeat: no-repeat ;
+  background-position: center;
+  position: relative;
   height: 563px;
+  max-height: 563px;
   width: 100%;
-  background: url("../img/banner-bg-orange.jpg") no-repeat center;
-  border-radius: 0 0 50% 50% / 4%;
   
+  
+}
+
+.header-main {
+  opacity: 1 !important;
+  font-size: 14.5px;
+  font-weight: 500;
+  color: #000000;
+  font-size: 38px;
 }
 
 .main-navbar-nav .navbar-brand {
@@ -101,20 +114,22 @@ html {
 .fh5co-hero-inner {
   margin-top: 0px;
   position: relative;
+  
 }
 .fh5co-hero-inner > h1 {
   color: #fff;
   font-weight: 300;
   font-size: 55px;
   letter-spacing: 2px;
+  
 }
 .fh5co-hero-inner > p {
-  width: 500px;
   font-size: 20px;
   color: #fff;
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 1.5em;
+  text-align: left;
 }
 .fh5co-hero-inner .download-btn-first {
   font-size: 15px;
