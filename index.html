@@ -143,7 +143,7 @@
 
 		<div class="container fh5co-hero-inner">
 			<h1 class="animated fadeIn wow" data-wow-delay="0.4s">The Card Game for Meeting Efficiency!</h1>
-			<p class="animated fadeIn wow" data-wow-delay="0.4s">Tap on a card and play it at any time during the meeting. Kickstart the meeting with the Agenda and Meeting Scribe Cards. </p>
+			<p class="animated fadeIn wow" data-wow-delay="0.4s">Ensure your meetings stay on track. Play any power cards during a meeting. </p>
 			
 			
 		</div>
@@ -156,7 +156,11 @@
 													 CARDS
 		 ========================================================================================================== -->
 
-	<div class= 'container'>	
+	<div class= 'container'>
+		<p class="animated fadeIn wow" data-wow-delay="0.4s">1. <span class="orange-bold">Click</span> on the power card </p>
+		<p class="animated fadeIn wow" data-wow-delay="0.4s">2. <span class="orange-bold">Show</span> the power card </p>
+		<p class="animated fadeIn wow" data-wow-delay="0.4s">3. <span class="orange-bold">Start</span> the meeting by Playing Agenda and Meeting Scribe! </p>
+
 		 <img id="crd-a" alt="" class="small blue" src="img/Agenda.jpg"> 
 
 		 <img id="crd-b" alt="" class="small green" src="img/Meeting-Scribe.jpg"> 
@@ -183,6 +187,22 @@
 
 		 <img id="crd-m" alt="" class="small blue" src="img/Houston.jpg">
 
+		 <script>
+
+			$( "img" ).click(function() {
+		
+				$( this ).toggleClass( "full" );
+		
+				$('html, body').animate({
+		
+					scrollTop: $(this).offset().top
+		
+				},0);
+		
+			});
+		
+		</script>
+
 	</div>
 
 		<!-- ==========================================================================================================
@@ -196,7 +216,7 @@
 						<div class="col-sm-6">
 							<h1>Send Us your Feedback!</h1>
 							<p>Fill out a quick form to let us know what we could improve.</p>
-							<a class="wow fadeIn animated" data-wow-delay="0.25s" href="http://www.surveymonkey.com"><img class="google-play-btn" src="img/surveym-button.png" alt="SurveyMonkey"> </a>
+							<a class="wow fadeIn animated" data-wow-delay="0.25s" href="https://www.surveymonkey.com/r/32ZRQCF" target="_blank"><img class="google-play-btn" src="img/surveym-button.png" alt="SurveyMonkey"> </a>
 						</div>
 					</div>
 				</div>
@@ -205,6 +225,7 @@
 			<span class="border-bottom-footer"></span>
 
 			<p class="copyright">&copy; 2020 Cardtalyst. All rights reserved. Design adapted from <a href="https://freehtml5.co" target="_blank">FreeHTML5</a>.</p>
+			<p class="copyright">Certain illustrations used created by <a href="https://www.freepik.com/stories" target= "_blank">Freepik stories</a>. </p>
 
 		</div>
 
@@ -212,21 +233,7 @@
 
 </div> <!-- main page wrapper -->
 
-<script>
 
-	$( "img" ).click(function() {
-
-		$( this ).toggleClass( "full" );
-
-		$('html, body').animate({
-
-			scrollTop: $(this).offset().top
-
-		},0);
-
-	});
-
-</script>
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.js"></script>
